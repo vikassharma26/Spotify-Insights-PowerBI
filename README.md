@@ -1,5 +1,7 @@
 # Spotify Power BI Analysis
 
+## Dataset Link : https://www.kaggle.com/datasets/nelgiriyewithana/most-streamed-spotify-songs-2024
+
 ## Overview
 
 This project is a comprehensive analysis of a real-world Spotify dataset using Power BI. The objective was to clean the data, create calculated measures, and develop insightful visualizations to understand the performance of explicit and non-explicit songs on Spotify.
