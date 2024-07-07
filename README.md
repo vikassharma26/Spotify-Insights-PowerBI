@@ -28,19 +28,19 @@ Data cleaning was a crucial part of this project to ensure the accuracy and reli
 
 ## Calculated Measures
 
-- **% of Explicit Songs**: `[Total Explicit Song Count] / [Total Explicit + Non Explicit Count] * 100`
-- **% of Explicit Song Views**: `[Explicit Song Spotify Views] / [Explicit + Non Explicit Song Views] * 100`
-- **Average View Per Explicit Song**: `[Explicit Song Spotify Views] / [Total Explicit Song Count]`
-- **Average Views per Non-Explicit Song**: `[Total Non-Explicit Song View] / [Total Non-Explicit Song Count]`
-- **Explicit + Non Explicit Song Views**: `[Explicit Song Spotify Views] + [Total Non-Explicit Song View]`
-- **Explicit Song Spotify Views**: `CALCULATE([Total Spotify Views], Sheet1[Explicit Track] = 1)`
-- **Total Explicit + Non Explicit Count**: `[Total Explicit Song Count] + [Total Non-Explicit Song Count]`
-- **Total Explicit Song Count**: `CALCULATE(COUNTA(Sheet1[Track]), Sheet1[Explicit Track] = 1)`
-- **Total Non-Explicit Song Count**: `CALCULATE(COUNTA(Sheet1[Track]), Sheet1[Explicit Track] = 0)`
-- **Total Non-Explicit Song View**: `CALCULATE([Total Spotify Views], Sheet1[Explicit Track] = 0)`
-- **Total Playlist Reach**: `SUM(Sheet1[Spotify Playlist Count])`
-- **Total Spotify Views**: `SUM(Sheet1[Spotify Streams])`
-- **Total Youtube Views**: `SUM(Sheet1[YouTube Views])`
+- **% of Explicit Songs** 
+- **% of Explicit Song Views** 
+- **Average View Per Explicit Song** 
+- **Average Views per Non-Explicit Song**
+- **Explicit + Non Explicit Song Views** 
+- **Explicit Song Spotify Views** 
+- **Total Explicit + Non Explicit Count** 
+- **Total Explicit Song Count** 
+- **Total Non-Explicit Song Count** 
+- **Total Non-Explicit Song View** 
+- **Total Playlist Reach** 
+- **Total Spotify Views**
+- **Total Youtube Views**
 
 ## Visual Insights
 
